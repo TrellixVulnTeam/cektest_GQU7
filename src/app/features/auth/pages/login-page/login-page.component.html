@@ -1,0 +1,19 @@
+<div class="background">
+  <div class="login-container">
+    <div class="text-container">
+      <h1>Greetings to all Hackathon Teams</h1>
+      <p>
+        Create and Login in your Account
+      </p>
+      <button mat-button routerLink="/register">Sign up</button>
+    </div>
+    <div class="form-container">
+      <h1>Welcome to DataNauts Login</h1>
+      <button class="mat-raised-button" (click)="loginWithGoogle()">
+        Sign In with Google
+      </button>
+      <h5>Or sign in with your email</h5>
+      <ngbytes-login-form (formData)="login($event)"></ngbytes-login-form>
+    </div>
+  </div>
+</div>

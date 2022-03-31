@@ -1,0 +1,176 @@
+a {
+  color: #838383;
+  margin-top: 30px;
+  text-decoration: none;
+}
+
+h1 {
+  color: #5eccd6;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+h5 {
+  color: #838383;
+  font-size: 12pt;
+  margin-bottom: 20px;
+}
+
+button {
+  border-radius: 20px;
+  margin: 20px;
+  padding: 10px 40px;
+  background-color: #04aa6d;
+  color: white;
+  border: none;
+}
+
+p {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.background {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+}
+
+.login-container {
+  border-radius: 10px;
+  box-shadow: 0 0 20px 2px #e4e4e4;
+  display: flex;
+  width: 90%;
+}
+
+.text-container {
+  align-items: center;
+  background-color: #5eccd6;
+  border-radius: 0 10px 10px 0;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+  width: 30%;
+}
+
+.form-container {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px 0 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 80px;
+  width: 100%;
+}
+
+.text-container h1 {
+  color: #fff;
+}
+
+.text-container button {
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+
+/* Table CSS */
+.demo-table {
+  width: 100%;
+  margin-top: 20px
+}
+
+.mat-column-demo-position {
+  width: 32px;
+  border-right: 1px solid currentColor;
+  padding-right: 24px;
+  text-align: center;
+}
+
+.mat-column-demo-name {
+  padding-left: 16px;
+  font-size: 20px;
+}
+
+.mat-column-demo-weight {
+  font-style: italic;
+}
+
+.mat-column-demo-symbol {
+  width: 32px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+/* TopBar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #04aa6d;
+}
+
+.active {
+  background-color: #333;
+}
+
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+
+
+/* Button CSS */
+section {
+  display: table;
+}
+
+.example-label {
+  display: table-cell;
+  font-size: 14px;
+  margin-left: 8px;
+  min-width: 120px;
+}
+
+.example-button-row {
+  display: table-cell;
+  width: 490px;
+}
+
+.example-button-row .mat-button-base {
+  margin: 8px 8px 8px 0;
+}
+
+.example-flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.example-button-container {
+  display: flex;
+  justify-content: center;
+  width: 120px;
+}
